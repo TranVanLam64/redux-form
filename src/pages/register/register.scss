@@ -1,0 +1,72 @@
+.register {
+    background-image: url("../../access/imgs/MacBook\ Pro\ 14_\ -\ 1.png");
+    background-size: cover;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    .registerContainer {
+        background-color: white;
+        height: 100vh;
+        width: 60%;
+        right: 0;
+        position: absolute;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        padding: 120px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        h1 {
+            font-size: 30px;
+            margin-top: 0;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+
+            .sectionInputRegister {
+                display: flex;
+                flex-direction: column;
+
+                .registerInput {
+                    border: none;
+                    outline: none;
+                    border-bottom: 1px solid gray;
+                    padding: 10px;
+                }
+
+                span {
+                    color: rgb(247, 87, 87);
+                }
+
+            }
+
+            .btnRegister {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: darkcyan;
+                color: white;
+                padding: 15px;
+                border-radius: 5px;
+                cursor: pointer;
+                outline: none;
+                border: none;
+            }
+        }
+
+        .registerFooter {
+            margin-top: 20px;
+            :last-child {
+                color: darkcyan;
+                cursor: pointer;
+            }
+        }
+    }
+}
